@@ -1,0 +1,123 @@
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    background-color: rgba(0, 0, 0, 0.694);
+    color: white;
+
+}
+.search {
+    background-color: rgb(158, 249, 255);
+    color: rgb(6, 22, 87);
+    border-radius: 10px;
+}
+.start-article {
+    display: flex;
+    background-color: rgb(158, 249, 255);
+    color: rgb(6, 22, 87);
+    border: white;
+    width: 100%;
+    margin-bottom: 20px;
+}
+hr {
+    background-color: rgb(255, 0, 89);
+    height: 10px;
+
+}
+button {
+    background-color: rgb(235, 21, 210);
+    color: whitesmoke;
+    width: fit-content;
+    border: white;
+    font-weight:bold;
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.694);
+    color: white;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+.right-article {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.left-article {
+    width: 50%;
+}
+.up_right__article {
+    display: flex;
+    justify-content: space-evenly;
+}
+.down_right__article {
+    display: flex;
+    justify-content: space-evenly;
+}
+.main_article {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 80%;
+}
+.main_article__left {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+.main_article__right {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+.aside {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 20%;
+}
+.main_section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.img_article {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+}
+.ul_article {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-start;
+}
+img {
+    padding-right: 29px; 
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+p {
+    width: fit-content;
+}
+.social-button {
+    border-radius: 13px;
+    width:140px;
+    height:50px;
+    background-color: rgb(49, 21, 235);
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
